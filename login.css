@@ -1,0 +1,114 @@
+/* reset css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: yellow;
+}
+
+
+/* navbar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+    position: absolute;
+    right: 40px;
+}
+
+#navbar ul li{
+    color: black;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 5px 45px;
+    text-decoration: none;
+
+}
+
+#navbar ul li a:hover{
+    color: brown;
+}
+
+.item2{
+
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: -2px 4px
+}
+#logo{
+    margin: 29px 50px;
+}
+
+
+/* Box styling */
+
+#box{
+    /* display: flex;
+    justify-content: center; */
+    margin: 40px auto;
+    background-color: white;
+    width: 480px;
+    height: 600px;
+    box-shadow: 3px 3px 15px black;
+}
+#box img{
+ 
+        width: 278px;
+        height: 127px;
+        margin: 8px 97px;
+
+}
+
+.register input{
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1.5px solid black;
+        margin: 25px 49px;
+        font-size: 31px;
+
+     
+}
+
+.btn{
+    font-size: 25px;
+    margin: 40px 70px;
+    border: 2px solid black;
+    padding: 0px 125px;
+    border-radius: 25px;
+    background-color: rgb(20, 133, 199);
+    color: white;
+}
+
+
+
+.signup{
+    margin: 0px 145px;
+    
+}
+
+.signup:hover{
+    text-decoration: none;
+    color: rgb(114, 23, 114);
+}
+
+span{
+    color: rgb(20, 133, 199);
+    margin: 145px;
+}
+
+span a:hover{
+    text-decoration: none;
+    color: rgb(114, 23, 114);
+}
